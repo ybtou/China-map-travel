@@ -15,20 +15,19 @@
 ### 2. 配置环境变量
 
 项目根目录下有 `.env.example` 文件，复制并重命名为 `.env`：
-
 ```
 cp .env.example .env
 ```
 然后编辑 `.env` 文件，填入你的密钥：
-
 ### 高德地图 API Key
+```
 VITE_AMAP_KEY=你的API密钥
-
+```
 ### 高德地图安全密钥 (securityJsCode)
+```
 VITE_AMAP_SECURITY_CODE=你的安全密钥
-
+```
 ## 3. 安装依赖
-
 ```bash
 npm install
 ```
